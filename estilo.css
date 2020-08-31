@@ -1,0 +1,354 @@
+
+
+    *{
+        margin: 0;
+        padding: 0pc;
+    }
+
+    
+    header{
+        margin-top: 1%;
+    }
+
+    .logo{
+        width: 300px;
+    }
+    
+    .navbar-nav{
+    margin-left: 15%;
+    
+    }
+    
+    .nav-link{
+        font-weight: bold;
+        font-family: 'manrope', sans-serif;
+        font-size: 20px;
+        margin-left:25%;
+    
+    }
+    
+    #btn-1{
+        border: 1px solid purple;
+        padding: 12px 20px;
+        text-align: left;
+        text-align: center;
+        border-radius: 6px;
+        background: purple;
+        color: white;
+    }
+    /* fim do header desktop */
+
+    
+    .container-1{
+        width: 100%;
+  
+    }
+
+  
+    .cards-1{
+        margin-bottom: 90px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+        grid-gap: 16px;
+    
+    }
+
+   
+
+    
+    .card-white-1 h1{
+        color: rgb(58, 57, 57);
+        width: 690px;
+        margin-top: 15%;
+        margin-left: 10%;
+        font-size: 34px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        text-decoration: none;
+        display: inline-block;
+    }
+    
+    .card-white-1 p{
+        display: inline-block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 30%;
+        line-height: 28px;
+        margin-left: 10%;
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+        text-decoration: none;
+        color: rgb(58, 57, 57);
+    }
+    
+    .card-white-1 .btn-inovacao{
+        background: red;
+        width: 200px;
+        margin-left: 10%;
+        border: 1px solid purple;
+        padding: 20px 40px;
+        border-radius: 8px;
+        background: purple;
+        color: white;
+        margin-left: 10%;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+    }
+
+   
+
+        .card-white-1 img{
+            display: inline;
+            /* margin-right: 6%; */
+            width:400px;
+            float: right;
+           float: top;
+           margin-top: 230px;
+           margin-bottom: 30px;
+         
+         
+        }
+
+    
+        /* fim da section inovacao */
+        
+       
+        /* inicio da sectiion sobre */
+        .cont{
+            background: #ecf3f2;
+        }
+        .container-2{
+            width: 900px;
+            
+        }
+        .cards-2{
+            /* grid-template-columns: 1fr 1fr 1fr  ; */
+            
+        }
+
+        .container-2 h1{
+            color: rgb(58, 57, 57);
+        width: 600px;
+        margin-top: 15%;
+        margin-left: 10%;
+        font-size: 50px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        }
+        .card-white-2 p{
+            width: 60%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            /* width: 90%; */
+            line-height: 28px;
+            margin-left: 20%;
+           
+            font-size: 28px;
+            font-family: 'Montserrat', sans-serif;
+            line-height: 34px;
+        }
+        /* fim da sessao sobre */
+
+        /* inicio da sessao o que fazemos */
+
+        .container-3{
+            width: 900px;
+            /* margin-left: 29%; */
+            margin-top: 10%;
+        }
+        .cards-3{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 16px;
+        }
+
+       .container-3 h1{
+           font-weight: bold;
+           text-align: center;
+           font-size: 50px;
+           font-family: 'Montserrat', sans-serif;
+           margin-bottom: 90px;
+       }
+        .card-white-3 h3{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+            font-size: 34px;
+            color: #322f3f;
+            
+        }
+        .card-white-3 p{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+            color: #595666;
+            line-height: 24px;
+        }
+
+        .card-white-3 .icon{
+            width: 150px;
+        }
+
+        .container-3 .btn-3{
+            margin-top: 20%;
+            margin-left: 46%;
+            border: 1px solid purple;
+            padding: 20px 40px;
+            border-radius: 8px;
+            background: purple;
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+        }
+        /* fim da sessao o que fazemos */
+
+        /* inicio nosso processo */
+        .container-4{
+            width: 900px;
+            /* margin-left: 15%; */
+            margin-top: 10%;
+        }
+        .cards-4{
+            display: grid;
+            grid-template-columns: 1fr 1fr ;
+            grid-gap: 16px;
+        }
+
+        .container-4 h1{
+            /* margin-left: 45%; */
+            font-size: 50px;
+            font-family: 'Montserrat', sans-serif;
+            margin-bottom: 20%;
+            font-weight: bold;
+        }
+        .container-4 h2{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 24px;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+        }
+        .card-white-4 p{
+            width: 50%;
+            margin-left: 30%;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+            color: #595666;
+            line-height: 24px;
+            margin-bottom: 30px;
+        }
+
+        .card-white-4 .imagem{
+            width: 600px;
+        }
+        /* fim da sessao nosso processo */
+
+        /* formulario */
+
+        .container-5{
+            width: 900px;
+            margin-top: 10%;
+        }
+
+        .container-5 h1{
+          
+        }
+        .cards-5{
+            margin-left: 20%;
+            display: grid;
+            grid-template-columns: 1fr 1fr ;
+            grid-gap: 16px;
+        }
+
+        .card-white-5 h5{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 25px;
+        }
+
+        .imagem{
+            /* width: 100px; */
+        }
+
+        input[type=text]{
+            padding: 20px 110px;
+            border: none;
+            border: 1px solid #edcfff;
+            background: #edcfff;
+            border-radius: 9px;
+        }
+        input[type=email]{
+            padding: 20px 110px;
+            border: none;
+            border: 1px solid #edcfff;
+            background: #edcfff;
+            border-radius: 9px;
+        }
+
+        .card-white-5 .textarea{
+            margin-left: 1%;
+            width: 510px;
+            border: none;
+            border: 1px solid #edcfff;
+            background: #edcfff;
+            border-radius: 9px;
+        }
+
+        label{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+        }
+
+        .card-white-5 ::placeholder{
+           margin-right: 30%;
+        }
+
+        .redes{
+            /* width: 100px; */
+        }
+
+        .redes-sociais{
+            margin-top: 10%;
+        }
+
+        .redes-sociais h5{
+            font-weight: bold;
+        }
+
+        .btn-form{
+            border: 1px solid purple;
+        padding: 12px 70px;
+        text-align: left;
+        text-align: center;
+        border-radius: 6px;
+        background: purple;
+        color: white;
+        margin-left: 10%;
+        font-weight: bold;
+        font-family: 'Montserrat', sans-serif;
+        margin-bottom: 30px;
+        }
+    
+
+        /* footer */
+        #footer{
+            background: #030303;
+            padding: 90px auto;
+        }
+
+        #footer span{
+            margin-left: 30%;
+            font-weight: bold;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 18px;
+            color: white;
+            margin-top: 10%;
+        }
+        
+        #footer p{
+            color: white;
+            text-align: center;
+        }
+
+        
+    
+
+
+
+
